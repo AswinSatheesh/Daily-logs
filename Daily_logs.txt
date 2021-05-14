@@ -1,0 +1,34 @@
+Daily_logs
+
+---------------------------------------------------------------
+Day April 27,2021
+---------------------------------------------------------------
+
+Ubuntu is my Cupid
+
+sudo apt-get update
+sudo apt upgrade
+
+
+Date:28/4/2021 --Wednesday
+-------------
+
+ssh-keygen -t rsa -b 4096 -C "aswinsatheesh2001@gmail.com"
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_rsa
+
+pbcopy < ~/.ssh/id_rsa.pub
+or
+cat ~/.ssh/id_rsa.pub
+    (then copy the content)
+
+    git config --global user.name "Aswin Satheesh"
+    git config --global user.email "aswinsatheesh2001@gmail.com"
+
+
+
+Date:08/5/2021 --Saturday
+-------------
+
